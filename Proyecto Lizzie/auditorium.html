@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bill Graham Civic Auditorium</title>
+	<link rel="stylesheet" href="auditorium.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="partHead left">seated</div>
+				<div class="partHead right">Bill Graham Civic Auditorium</div>
+			</div>
+		</div>
+
+	</header>
+	<div id="blockOne" class="main">
+		<div class="firstBlock">
+			<div>
+				<div class="under">Set an email and SMS reminder to purchase tickets when they go on sale
+					<div class="under part"> April 12 at 10 am PDT</div>
+				</div>
+			</div>
+			<div class="change">
+				<div class="change">What is your
+					<div id="name" class="change">first name?</div>
+					<div id="lastName" class="change">last name,<div id="nameCompleted" class="change"></div>
+					</div>
+					<div id="email" class="change">email address?</div>
+				</div>
+			</div>
+			<div>
+				<input id="nameId" class="noInline block" placeholder="First Name"></input>
+				<input id="lastNameId" class="noInline block" placeholder="Last Name"></input></input>
+				<button id="firstBtn" class="btn">NEXT</button>
+				<button id="secondBtn" class="btn">NEXT</button>
+				<p id="alertName" class="shadow">We collect your name to personalized alerts.</p>
+			</div>
+			<input id="emailId" class="noInline block" placeholder="Email"><button id="thirdId"
+				class="btn">NEXT</button>
+			<div class="block and hidden">
+				<div id="secondAlert" class="shadow">We collect your email adress to deliver notifications.</div>
+				<div id="thirdAlert" class="shadow"><i class="fas fa-check-circle"></i>I confirm that I am 13 years of age
+					or older</div>
+				<div id="fourthAlert" class="shadow"><i class="fas fa-check-circle"></i>I agree to receive news, tour
+					dates and special
+					annoucements from Interpol</div>
+			</div>
+		</div>
+	</div>
+	<div id="blockNone" class="main">
+		<div  class="secondBlock">
+			<div class="under">What is your cell phone number? We'll send you a one-time True Fan Verifictaion Number.
+			</div>
+			<i class="fas fa-flag-usa">
+				<p class="noInline block">+1</p>
+			</i><input id="cellId" class="noInline block" placeholder="Phone Number"></input>
+			<button id="fifthBtn" class="btn">VERIFY</button>
+			<p id="fifthAlert" class="shadow">We collect your phone number to verify your identity and deliver a
+				notification.</p>
+		</div>
+	</div>
+
+	<footer class="footer">Privacy Policy</footer>
+	<script src="auditorium.js"></script>
+</body>
+
+</html>
